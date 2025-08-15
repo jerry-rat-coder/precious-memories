@@ -1,9 +1,9 @@
 'use client'
 
-import { Github } from 'lucide-react'
+// import { Github } from 'lucide-react'
 import { SearchCommand } from './search-command'
 import { ThemeToggle } from './theme-toggle'
-import { Button } from './ui/button'
+// import { Button } from './ui/button'
 
 export function Navbar() {
     return (
@@ -24,7 +24,7 @@ export function Navbar() {
                         <SearchCommand />
                     </div>
                     <nav className="flex items-center space-x-1">
-                        <Button
+                        {/* <Button
                             variant="ghost"
                             size="sm"
                             className="h-8 w-8 px-0"
@@ -38,7 +38,7 @@ export function Navbar() {
                                 <Github className="h-4 w-4" />
                                 <span className="sr-only">GitHub</span>
                             </a>
-                        </Button>
+                        </Button> */}
                         <ThemeToggle />
                     </nav>
                 </div>

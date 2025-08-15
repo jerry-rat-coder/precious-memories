@@ -20,7 +20,7 @@ export default function Home() {
                             .
                         </h1>
                         <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                            探索我的个人项目和游戏作品集合，每一个都承载着创意与激情。
+                            愿你的生活充满创意与激情。
                         </p>
                     </div>
                 </div>
@@ -42,7 +42,7 @@ export default function Home() {
             <footer className="border-t bg-muted/30">
                 <div className="container mx-auto px-4 py-8">
                     <div className="text-center text-sm text-muted-foreground">
-                        <p>&copy; 2024 Neo Yu. 用心创造，用爱分享。</p>
+                        <p>&copy; 2025 Neo Song. 用心创造，用爱分享。</p>
                     </div>
                 </div>
             </footer>
