@@ -10,6 +10,7 @@ export const projects: Project[] = [
         description: '2048 game built with React and TailwindCSS.',
         image: image2048,
         link: 'https://react-2048-eight.vercel.app/',
+        git: 'https://github.com/jerry-rat-coder/React-2048',
     },
     {
         id: '2',
@@ -17,12 +18,14 @@ export const projects: Project[] = [
         description: 'Minecraft game built with React-Three and Vite.',
         image: imageMinecraft,
         link: 'https://minecraft-react-vite.vercel.app/',
+        git: 'https://github.com/jerry-rat-coder/Minecraft-React-Vite',
     },
     {
         id: '3',
         title: 'Genshin Impact',
-        description: 'Genshin Impact Start built with React-Three and Vite.',
+        description: 'Genshin Impact Start built with xviewer.js and Vite.',
         image: imageGenshin,
-        link: 'https://genshin-start-six.vercel.app/',
+        link: 'https://genshin-impact-start-chi.vercel.app/',
+        git: 'https://github.com/jerry-rat-coder/genshin-impact-start',
     },
 ]

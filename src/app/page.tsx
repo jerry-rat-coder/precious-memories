@@ -42,7 +42,7 @@ export default function Home() {
             <footer className="border-t bg-muted/30">
                 <div className="container mx-auto px-4 py-8">
                     <div className="text-center text-sm text-muted-foreground">
-                        <p>&copy; 2025 Neo Song. 用心创造，用爱分享。</p>
+                        <p>&copy; 2025 Echo Song. 用心创造，用爱分享。</p>
                     </div>
                 </div>
             </footer>

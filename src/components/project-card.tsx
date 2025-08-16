@@ -5,11 +5,13 @@ import {
     Card,
     CardContent,
     CardDescription,
+    CardFooter,
     CardHeader,
     CardTitle,
 } from '@/components/ui/card'
 import { Project } from '@/types/project'
-
+import { Github } from 'lucide-react'
+import { Button } from './ui/button'
 interface ProjectCardProps {
     project: Project
 }
@@ -62,6 +64,24 @@ export function ProjectCard({ project }: ProjectCardProps) {
                     </div>
                 </CardContent>
             )}
+            <CardFooter>
+                <Button
+                    variant="ghost"
+                    size="sm"
+                    className="h-8 w-8 px-0"
+                    asChild
+                    onClick={(e) => e.stopPropagation()}
+                >
+                    <a
+                        href={project.git}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <Github className="h-4 w-4" />
+                        <span className="sr-only">GitHub</span>
+                    </a>
+                </Button>
+            </CardFooter>
         </Card>
     )
 }

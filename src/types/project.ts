@@ -4,5 +4,6 @@ export interface Project {
     description: string
     image: string | { src: string; height: number; width: number }
     link: string
+    git?: string
     tags?: string[]
 }
